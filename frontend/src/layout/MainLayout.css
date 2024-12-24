@@ -1,0 +1,35 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 200vh; 
+  overflow: hidden;
+}
+
+.layout-content {
+  display: flex;
+  flex: 1;
+  margin-top: 60px; 
+  position: relative;
+}
+
+.sidebar-content-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.content {
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+  padding-right: 60px;
+  background-color: #f4f6f9; 
+  height: 100%; 
+  position: relative;
+  border-radius: 8px;
+}
+
+
+
